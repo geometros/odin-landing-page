@@ -1,8 +1,8 @@
-html{
+html {
     overflow-x: hidden;
 }
 
-body{
+body {
     margin: 0;
     overflow-x: hidden;
 }
@@ -19,11 +19,11 @@ body{
     color: white;
 }
 
-.hero{
+.hero {
     background-color: #1F2937;
 }
 
-.hero-inner{
+.hero-inner {
     max-width: 1050px;
     margin: 0 auto;
     display: flex;
@@ -31,7 +31,7 @@ body{
     padding: 0 20px;
 }
 
-.links{
+.links {
     display: flex;
     justify-content: space-evenly;
     width: 450px;
@@ -89,40 +89,75 @@ button {
     font-size: 17px;
 }
 
-.lower{
+.lower {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.lower-title{
+.lower-title {
     font-size: 36px;
     font-weight: bolder;
     text-align: center;
     margin: 15px 0 15px 0;
 }
 
-.items{
+.items {
     display: flex;
     align-items: center;
 }
 
-.item{
+.item {
     margin: 0 20px 20px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.placeholder{
+.placeholder {
     border: 3px solid #3882f6;
     border-radius: 15px;
     height: 150px;
     width: 150px;
 }
 
-.lower-text{
+.lower-text {
     width: 150px;
     color: #808288;
     text-align: center;
+}
+
+.lower-quote {
+    background-color: #e5e7eb;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    
+}
+
+.quote {
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+}
+
+.spacer-cont {
+    display: flex;
+    justify-content: flex-end;
+    width: 40%;
+}
+
+spacer {
+    width: 0;
+}
+
+.attrib {
+    font-weight: bold;
 }
