@@ -158,6 +158,33 @@ button {
     font-weight: bold;
 }
 
+.call {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    width: 70%;
+    height: 100px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-call {
+    margin: 0 200px 0 0;
+}
+
+.left-call * {
+    margin: 0 50px;
+}
+
+.call button {
+    color: #F9FAF8;
+    background-color: #3882f6;
+    border: 2px solid #F9FAF8;
+    font-weight: bold;
+}
+
 .footer {
     background-color: #1F2937;
     color: #bec1c7;
