@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    overflow-x: hidden;
 }
 
 .wrapper {
@@ -37,6 +38,49 @@ body{
 a:link {
     align-self: center;
     text-decoration: none;
-    color: #989fad;
+    color: #bec1c7;
 }
 
+#main-button {
+    background-color: #3882f6;
+    color: white;
+}
+
+.upper {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.upper-left {
+    padding: 120px 50px 120px 195px;
+}
+
+.upper-right {
+    padding: 120px 300px 120px 60px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight:bolder;
+    color: #F9FAF8;
+    margin: 0;
+    width: 360px;
+}
+
+.subtext {
+    color:#bec1c7;
+    font-size: 18px;
+    width: 450px;
+    margin: 0 0 15px 0;
+}
+
+button {
+    border-radius: 8px;
+    border: 0;
+    height: 35px;
+    width: 110px;
+    font-weight: 500;
+    font-size: 17px;
+}
