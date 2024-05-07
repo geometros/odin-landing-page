@@ -157,3 +157,12 @@ button {
 .attrib {
     font-weight: bold;
 }
+
+.footer {
+    background-color: #1F2937;
+    color: #bec1c7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
